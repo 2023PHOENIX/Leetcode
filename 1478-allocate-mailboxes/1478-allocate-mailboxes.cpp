@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int dp[(int)1e4 + 1][101];
+    int dp[101][101];
     int dfs(vector<int> &houses,int index,int k){
 
         if(index == houses.size())return 0;
